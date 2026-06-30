@@ -3,7 +3,7 @@ from PIL import Image
 import io
 
 # --- Page Config ---
-st.set_page_config(page_title="Image Compressor", page_icon="🖼️", layout="centered")
+st.set_page_config(page_title="BitReduce", page_icon="🖼️", layout="centered")
 
 
 # --- CSS Styling ---
@@ -26,7 +26,7 @@ st.markdown(css, unsafe_allow_html=True)
 st.markdown('<div class="container-card">', unsafe_allow_html=True)
 
 st.markdown("""
-<h1>🖼️ Image Compression App</h1>
+<h1>🖼️ BitReduce</h1>
 <h3>Effortlessly reduce image size without losing quality</h3>
 <hr style='border: 0.5px solid #555;'>
 """, unsafe_allow_html=True)
